@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane2" prefHeight="400.0" prefWidth="504.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlaceOrderForm">
+   <children>
+      <Label alignment="CENTER" prefHeight="77.0" prefWidth="504.0" style="-fx-background-color: #2ecc71;" text="Place Order" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="backbtn" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#BackbuttonOnAction" style="-fx-background-color: #ff5e57;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="oid" layoutX="300.0" layoutY="96.0" prefHeight="21.0" prefWidth="90.0" text="Order ID">
+         <font>
+            <Font name="Bodoni MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="96.0" prefHeight="32.0" prefWidth="90.0" text="Product ID">
+         <font>
+            <Font name="Bodoni MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="165.0" prefHeight="32.0" prefWidth="102.0" text="Customer Name">
+         <font>
+            <Font name="Bodoni MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="300.0" prefHeight="32.0" prefWidth="62.0" text="Item Price">
+         <font>
+            <Font name="Bodoni MT" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="300.0" prefHeight="32.0" prefWidth="62.0" text="QTY">
+         <font>
+            <Font name="Bodoni MT" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="300.0" layoutY="128.0" prefHeight="21.0" prefWidth="138.0" text="Date">
+         <font>
+            <Font name="Bodoni MT" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pidtxt" layoutX="19.0" layoutY="128.0" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #BD83B8;" />
+      <TextField fx:id="cnametxt" layoutX="16.0" layoutY="197.0" prefHeight="25.0" prefWidth="187.0" style="-fx-background-color: #BD83B8;" />
+      <TextField fx:id="ipricetxt" layoutX="21.0" layoutY="332.0" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #BD83B8;" />
+      <TextField fx:id="qtytxt" layoutX="158.0" layoutY="332.0" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #BD83B8;" />
+      <Button fx:id="porderbtn" layoutX="403.0" layoutY="345.0" mnemonicParsing="false" onAction="#PorderbuttonOnAction" prefHeight="32.0" prefWidth="90.0" style="-fx-background-color: #2ecc71;" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="clearbtn" layoutX="300.0" layoutY="345.0" mnemonicParsing="false" onAction="#ClearbuttonOnAction" prefHeight="32.0" prefWidth="90.0" style="-fx-background-color: #e74c3c;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="16.0" layoutY="233.0" prefHeight="32.0" prefWidth="102.0" text="Contact Number">
+         <font>
+            <Font name="Bodoni MT" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cnumbertxt" layoutX="16.0" layoutY="265.0" prefHeight="25.0" prefWidth="187.0" style="-fx-background-color: #BD83B8;" />
+   </children>
+</AnchorPane>
