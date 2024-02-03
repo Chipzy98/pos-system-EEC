@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane2" prefHeight="400.0" prefWidth="504.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PlaceOrderForm">
+<AnchorPane fx:id="pane2" prefHeight="400.0" prefWidth="504.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.Controllers.PlaceOrderForm">
    <children>
       <Label alignment="CENTER" prefHeight="77.0" prefWidth="504.0" style="-fx-background-color: #2ecc71;" text="Place Order" textAlignment="CENTER" textFill="WHITE">
          <font>

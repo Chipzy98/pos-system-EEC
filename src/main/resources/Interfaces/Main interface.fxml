@@ -9,11 +9,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="pane1" prefHeight="405.0" prefWidth="546.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainInterfaceController">
+<AnchorPane fx:id="pane1" prefHeight="405.0" prefWidth="546.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.Controllers.MainInterfaceController">
    <children>
       <ImageView fitHeight="221.0" fitWidth="238.0" layoutX="256.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Images/EEServicers3.png" />
+            <Image url="@../../resources/Images/EEServicers3.png" />
          </image>
       </ImageView>
       <Label alignment="CENTER" layoutY="-1.0" prefHeight="406.0" prefWidth="193.0" style="-fx-background-color: #00C2CB;" text="&#10;&#10;&#10;E &amp; E &#10;Service&#10;Center" textAlignment="CENTER" textFill="WHITE">
@@ -23,7 +23,7 @@
       </Label>
       <ImageView fitHeight="192.0" fitWidth="193.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Images/EEServicers.png" />
+            <Image url="@../../resources/Images/EEServicers.png" />
          </image>
       </ImageView>
       <Label layoutX="259.0" layoutY="148.0" prefHeight="31.0" prefWidth="160.0" text="User Name">

@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane fx:id="pane8" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AdmindashboardForm">
+<AnchorPane fx:id="pane8" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.Controllers.AdmindashboardForm">
    <children>
       <Label alignment="CENTER" layoutY="-1.0" prefHeight="71.0" prefWidth="600.0" style="-fx-background-color: #2ecc71;" text="Admin Dashboard" textAlignment="CENTER">
          <font>
@@ -37,7 +37,7 @@
       </Button>
       <ImageView fitHeight="330.0" fitWidth="317.0" layoutX="269.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Images/admin%20dash.jpg" />
+            <Image url="@../../resources/Images/admindash.jpg" />
          </image>
       </ImageView>
    </children>

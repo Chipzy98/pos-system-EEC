@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CustomerDashboardForm">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b2bec3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.Controllers.CustomerDashboardForm">
    <children>
       <Label alignment="CENTER" layoutY="-1.0" prefHeight="73.0" prefWidth="600.0" style="-fx-background-color: #2ecc71;" text="Customer Dashboard" textAlignment="CENTER" textFill="WHITE">
          <font>
